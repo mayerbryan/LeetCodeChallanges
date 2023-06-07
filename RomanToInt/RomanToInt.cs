@@ -1,10 +1,10 @@
 
 
 
-public static class RomanToInt {
-    string userInput = Console.ReadLine();
-    int result;
-    public static void romanToInt(){
+public class RomanToInt {
+    public string userInput = Console.ReadLine();
+    public int result;
+    public void romanToInt(){
         char[] userInputArray = userInput.ToCharArray(); 
         for(int i=0; i <= userInput.Length; i++){
                        
