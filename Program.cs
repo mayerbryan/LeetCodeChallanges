@@ -5,5 +5,6 @@
 // SingleNumber SingleNumber = new();
 // SingleNumber.singleNumber(nums);
 
+string[] strs = {"flower","flow","flight"};
 LongestCommonPrefix LongestCommonPrefix = new ();
-LongestCommonPrefix.FindTheCommonPrefix();
+LongestCommonPrefix.FindLongestCommonPrefix(strs);
