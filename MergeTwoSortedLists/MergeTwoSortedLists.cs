@@ -23,6 +23,8 @@ namespace LeetCodeChallanges.MergeTwoSortedLists
             {
                 Console.WriteLine(item);
             }
+
+            
         }
     }
 }
