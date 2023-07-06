@@ -8,7 +8,6 @@ public static class CharExtensions{
         {
             sb.Append(s[i]);
         }
-        
         return sb.ToString();
     }
 }

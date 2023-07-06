@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 namespace LeetCodeChallanges.MergeTwoSortedLists
 {
     public class MergeTwoSortedLists
-    {
-        
+    {        
         public void MergeTwoLists(List<int> list1, List<int> list2) {
             List<int> list3 = new List<int>();
             foreach (var item in list1)
