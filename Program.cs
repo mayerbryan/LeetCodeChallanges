@@ -1,6 +1,8 @@
 ﻿using LeetCodeChallanges.LongestCommonPrefix;
 using LeetCodeChallanges.ValidParentheses;
 using LeetCodeChallanges.MergeTwoSortedLists;
+using LeetCodeChallanges.ReverseString;
+
 
 
 // int[] nums = {2,2,1,1,3};
@@ -15,7 +17,10 @@ using LeetCodeChallanges.MergeTwoSortedLists;
 // ValidParentheses validParentheses = new ();
 // Console.WriteLine(validParentheses.IsValid(s));
 
-List<int> list1 = new List<int>{1,2,4};
-List<int> list2 = new List<int>{1,3,4};
-MergeTwoSortedLists mergeTwoSortedLists = new ();
-mergeTwoSortedLists.MergeTwoLists(list1,list2);
+// List<int> list1 = new List<int>{1,2,4};
+// List<int> list2 = new List<int>{1,3,4};
+// MergeTwoSortedLists mergeTwoSortedLists = new ();
+// mergeTwoSortedLists.MergeTwoLists(list1,list2);
+
+string s = "testing";
+ReverseString.reverseString(s.ToArray());
