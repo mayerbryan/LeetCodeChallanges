@@ -2,6 +2,7 @@
 using LeetCodeChallanges.ValidParentheses;
 using LeetCodeChallanges.MergeTwoSortedLists;
 using LeetCodeChallanges.ReverseString;
+using LeetCodeChallanges.CountOfMatchesInTournament;
 
 
 
@@ -22,5 +23,10 @@ using LeetCodeChallanges.ReverseString;
 // MergeTwoSortedLists mergeTwoSortedLists = new ();
 // mergeTwoSortedLists.MergeTwoLists(list1,list2);
 
-string s = "testing";
-ReverseString.reverseString(s.ToArray());
+// string s = "testing";
+// ReverseString.reverseString(s.ToArray());
+
+int n = 7;
+CountOfMatchesInTournament countOfMatchesInTournament = new();
+countOfMatchesInTournament.NumberOfMatches(n);
+Console.WriteLine(countOfMatchesInTournament.NumberOfMatches(n) + " matches and 1 winner");
