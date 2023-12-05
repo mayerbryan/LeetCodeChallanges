@@ -17,8 +17,7 @@ namespace LeetCodeChallanges.CountOfMatchesInTournament
                     numberOfTeams = numberOfTeams / 2;  
                     numberOfMatches += numberOfTeams;                  
                 }else if(numberOfTeams%2!=0 && numberOfTeams>1){
-                    numberOfTeams = numberOfTeams - 1; 
-                    numberOfTeams = numberOfTeams / 2;
+                    numberOfTeams = (numberOfTeams - 1)/2; 
                     numberOfMatches += numberOfTeams;
                     numberOfTeams = numberOfTeams + 1;                                       
                 }else{
