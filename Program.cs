@@ -4,6 +4,7 @@ using LeetCodeChallanges.MergeTwoSortedLists;
 using LeetCodeChallanges.ReverseString;
 using LeetCodeChallanges.CountOfMatchesInTournament;
 using LeetCodeChallanges.MoveZeroes;
+using LeetCodeChallanges.LargestOddNumber;
 
 
 
@@ -32,6 +33,10 @@ using LeetCodeChallanges.MoveZeroes;
 // countOfMatchesInTournament.NumberOfMatches(n);
 // Console.WriteLine(countOfMatchesInTournament.NumberOfMatches(n) + " matches and 1 winner");
 
-int[] nums = {1,2,0,0,0,0,7,0,7,7,0};
-MoveZeroes moveZeroes = new();
-moveZeroes.MoveZeroesToEnd(nums);
+// int[] nums = {1,2,0,0,0,0,7,0,7,7,0};
+// MoveZeroes moveZeroes = new();
+// moveZeroes.MoveZeroesToEnd(nums);
+
+string num = "02354";
+LargestOddNumber largestOddNumber = new();
+largestOddNumber.ReturnLargestOddNumber(num);
