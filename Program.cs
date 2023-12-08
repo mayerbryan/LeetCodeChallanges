@@ -5,6 +5,7 @@ using LeetCodeChallanges.ReverseString;
 using LeetCodeChallanges.CountOfMatchesInTournament;
 using LeetCodeChallanges.MoveZeroes;
 using LeetCodeChallanges.LargestOddNumber;
+using LeetCodeChallanges.StringFromBinaryTree;
 
 
 
@@ -37,6 +38,18 @@ using LeetCodeChallanges.LargestOddNumber;
 // MoveZeroes moveZeroes = new();
 // moveZeroes.MoveZeroesToEnd(nums);
 
-string num = "02354";
-LargestOddNumber largestOddNumber = new();
-largestOddNumber.ReturnLargestOddNumber(num);
+// string num = "02354";
+// LargestOddNumber largestOddNumber = new();
+// largestOddNumber.ReturnLargestOddNumber(num);
+
+TreeNode root = new TreeNode(1);
+root.left = new TreeNode(2);
+root.right = new TreeNode(3);
+root.left.left = new TreeNode(4);
+root.right.right = new TreeNode(5);
+
+
+StringFromBinaryTree solution = new StringFromBinaryTree();
+string result = solution.Tree2str(root);
+
+Console.WriteLine(result);
